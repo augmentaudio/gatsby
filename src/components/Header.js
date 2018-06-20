@@ -21,6 +21,7 @@ const Header = (props) => (
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
             </ul>
         </nav>
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </header>
 )
 

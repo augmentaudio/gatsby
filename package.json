@@ -2,7 +2,7 @@
   "name": "gatsby-starter-dimension",
   "description": "Gatsby Starter - Dimension by HTML5 UP",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "",
   "dependencies": {
     "gatsby": "^1.9.235",
     "gatsby-link": "^1.6.39",
@@ -18,7 +18,7 @@
     "gatsby-transformer-sharp": "^1.6.22",
     "lodash": "^4.17.4"
   },
-  "homepage": "https://github.com/ChangoMan/gatsby-starter-dimension",
+  "homepage": "",
   "keywords": [
     "gatsby"
   ],
@@ -26,7 +26,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChangoMan/gatsby-starter-dimension.git"
+    "url": ""
   },
   "scripts": {
     "dev": "gatsby develop",

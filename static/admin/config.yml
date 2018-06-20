@@ -17,3 +17,9 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
+
+  - name: "home"
+    label: "Home"
+    folder: src/pages/
+    fields:
+      - {label: "Description", name: "description", widget: "text"}
