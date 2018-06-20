@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import pic01 from '../images/pic1.jpg'
 import pic02 from '../images/pic2.jpg'
 import pic03 from '../images/pic3.jpg'
+import pic04 from '../images/pic4.jpg'
 
 class Main extends React.Component {
   render() {
@@ -31,13 +32,22 @@ class Main extends React.Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
-          <p>I spend my time between Berlin and the Canary Islands, laptop never far away.</p>
+          <p>I spend my time between Berlin and Lanzarote working on exciting projects.</p>
           {close}
         </article>
 
+        <article id="about" className={`${this.props.article === 'blog' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <h2 className="major">Blog</h2>
+          <span className="image main"><img src={pic04} alt="" /></span>
+          <p>blog</p>
+          {close}
+        </article>
+
+
+
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-          <form method="post" action="#" data-netlify="true" netlify>
+          <form method="post" action="#" data-netlify="true" data-netlify-honeypot="bot-field">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
