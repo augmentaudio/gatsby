@@ -17,32 +17,33 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <p>Welcome to my REACT Js Gatsby website.</p>
+          <p>Welcome to Bryce & Bateman.</p>
           {close}
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Work</h2>
+          <h2 className="major">Mergers</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
-          <p>I create web sites and build web apps in javascript and React JS</p>
-          <p>Here is a selection of my work.</p>
+          <p>In a constantly evolving M&A market, planning and preparation is crucial to avoid missed opportunities. Choosing the right firm to meet these conditions is critical, be it on the buy or sell side, the preparation phase or merely when evaluating options. </p>
+          <p>Bryce & Bateman will help you make the right moves confidently and quickly.</p>
           {close}
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
-          <p>I spend my time between Berlin and Lanzarote working on exciting projects.</p>
+          <p>We are located in the Gherkin, 30 St Mary Ax, London, the heart of the financial city.</p>
           {close}
         </article>
 
         <article id="blog" className={`${this.props.article === 'blog' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Blog</h2>
           <span className="image main"><img src={pic04} alt="" /></span>
+
+
       <h1>hello</h1>
           {close}
         </article>
-
 
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>

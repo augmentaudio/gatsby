@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Jonathan Portelli :: Design Portfolio",
+    title: "Bryce & Bateman :: Private Investment",
     author: "Jonathan Portelli",
-    description: "A personal portfolio site built with Gatsby React"
+    description: "Putting Capital to Work, Making Companies Stronger."
   },
   pathPrefix: '/',
   plugins: [
@@ -13,6 +13,7 @@ module.exports = {
         name: "posts",
       },
     },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -20,6 +20,10 @@ collections:
 
   - name: "home"
     label: "Home"
-    folder: src/pages/
+    folder: "content/home"
+    create: true
+    slug: "{{slug}}"
     fields:
-      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "home"}
+      - {label: Title, name: title, widget: string}
+      - {label: Intro, name: intro, widget: markdown}
