@@ -18,6 +18,7 @@ class Main extends React.Component {
           <h2 className="major">Intro</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
           <p>Welcome to Bryce & Bateman.</p>
+          <p>Advising clients in listed and privately held companies to navigate and execute acquisitions, meergers and divestments.</p>
           {close}
         </article>
 
@@ -39,9 +40,7 @@ class Main extends React.Component {
         <article id="blog" className={`${this.props.article === 'blog' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Blog</h2>
           <span className="image main"><img src={pic04} alt="" /></span>
-
-
-      <h1>hello</h1>
+          <p>Coming soon.</p>
           {close}
         </article>
 
