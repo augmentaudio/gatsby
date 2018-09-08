@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = (props) => (
     <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
-        <p className="copyright">&copy; React JS Design - Design & Built by: <a href="https://www.jonathanportelli.com/">Jonathan Portelli</a></p>
+        <p className="copyright">&copy; Design & Built by: <a href="https://www.jonathanportelli.com/">Jonathan Portelli</a></p>
     </footer>
 )
 
